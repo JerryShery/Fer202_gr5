@@ -6,9 +6,9 @@ import Home from './pages/home/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode> 
+  <React.StrictMode>
     <Home></Home>
     {/* <Login></Login> */}
-    <Register></Register>
+    {/* <Register></Register> */}
   </React.StrictMode>
 );
