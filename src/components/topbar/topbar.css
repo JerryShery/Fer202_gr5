@@ -94,3 +94,7 @@
   object-fit: cover;
   cursor: pointer;
 }
+.linkhome {
+  color: white;
+  text-decoration: none;
+}

@@ -1,6 +1,7 @@
-import "./register.css";
+import "./login.css";
 import {Link} from 'react-router-dom'
-export default function Register() {
+
+export default function Login() {
   return (
     <div className="login">
       <div className="loginWrapper">
@@ -12,13 +13,11 @@ export default function Register() {
         </div>
         <div className="loginRight">
             <div className="loginBox">
-                <input placeholder="Username" className="loginInput" />
                 <input placeholder="Email" className="loginInput" />
                 <input placeholder="Password" className="loginInput" />
-                <input placeholder="Password Again" className="loginInput" />
-                <button className="loginButton">Sign Up</button>
+                <button className="loginButton"><Link to='/home' className="linkhome">Log in</Link></button>
                 <span className="loginForgot">Forgot Password</span>
-                <Link to='/login' className="linkregister"><button className="loginRegisterButton">Log In Account</button></Link>
+                <Link to='/register' className="linkreact"><button className="loginRegisterButton">Create a New Account</button></Link>
             </div>
         </div>
       </div>
